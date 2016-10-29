@@ -12,7 +12,7 @@ import listing:
 -Wl,--out-implib=pcb.a
 ~~~~
 
-A Cygwin command line build:
+A Cygwin command line build for the plugin:
 
 ~~~~
 g++ \
