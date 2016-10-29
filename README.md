@@ -7,7 +7,10 @@ g++ … -L/opt/local/lib -flat_namespace -undefined suppress -shared
 
 ##PC/Cygwin
 The following may be added to the pcb build command to generate the needed
-import listing: "-Wl,--out-implib=pcb.a"
+import listing: 
+~~~~
+-Wl,--out-implib=pcb.a
+~~~~
 
 A Cygwin command line build:
 
