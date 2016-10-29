@@ -1,14 +1,16 @@
 #Build Notes:
 
 Mac:
+----
 - g++ … -L/opt/local/lib -flat_namespace -undefined suppress -shared
 
 PC/Cygwin:
+----------
 - The following may be added to the pcb build command to generate the needed
   import listing: "-Wl,--out-implib=pcb.a"
 
-- A Cygwin command line build:
-------------------------------
+A Cygwin command line build:
+
 g++ \
 ../stipple.cpp ../dialog.cpp ../pcb.a \
 -shared -g3 -o test.so \
