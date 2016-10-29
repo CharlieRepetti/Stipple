@@ -35,6 +35,5 @@ g++ \
 -lcairo -lpixman-1 -lxcb-shm -lxcb-render -lXrender -lXext \
 -lX11 -lxcb -lXau -lXdmcp -lpng15 -lharfbuzz -lpango-1.0 -lm \
 -lfontconfig -lexpat -lfreetype -lz -lbz2 -lgmodule-2.0 \
--lgobject-2.0 -lffi -lglib-2.0 -lintl -liconv -lpcre \
-------------------------------------------------------
+-lgobject-2.0 -lffi -lglib-2.0 -lintl -liconv -lpcre
 
