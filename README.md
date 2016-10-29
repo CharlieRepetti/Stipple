@@ -1,4 +1,4 @@
 # Stipple
 gEDA PCB extension for cross-hatched polygons, useful for flexible circuits or capacitive sensors.
 
-[Introduction](http://www.sandpiper-inc.com/stipple/html/)
+[More information...](http://www.sandpiper-inc.com/stipple/html/)
